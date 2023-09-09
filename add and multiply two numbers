@@ -1,0 +1,20 @@
+#Can you create a program to add and multiply two numbers? 
+#For this ,create two functions add_numbers() and multiply_numbers()
+#These functions should compute the result and return them to THE FUNCTION call.
+#And, the results should be printed from outside the functions.
+
+def add_numbers(num1,num2):
+    sum_num = num1 + num2
+    return sum_num
+
+def multiply_numbers(num1,num2):
+    product = num1 * num2
+    return product
+
+a = 4
+b = 6
+total = add_numbers(a,b)
+print("The sum is",total)
+
+total = multiply_numbers(a,b)
+print("the product is",total)
